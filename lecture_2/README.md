@@ -33,3 +33,9 @@ sudo npm install -g @google/gemini-cli
 (Tip: After installing gemini-cli, just type gemini on your terminal.)
 
 (Tip2: You should install gemini-cli with npm rather than brew.)
+
+### Time Synchronization (for dual-boot)
+```bash
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
